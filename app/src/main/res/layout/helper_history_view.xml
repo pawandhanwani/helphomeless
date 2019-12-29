@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="4sp"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="4sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"/>
+
+            <TextView
+                android:padding="4sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Address"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+            <TextView
+                android:padding="4sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:text="Description"/>
+
+            <TextView
+                android:padding="4sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Date"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+            <TextView
+                android:padding="4sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"
+                android:text="Description"/>
+            <TextView
+                android:padding="4sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Occupied By"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+            <TextView
+                android:padding="4sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/occupier"
+                android:text="Description"/>
+            <TextView
+                android:padding="4sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+            <TextView
+                android:padding="4sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/status"
+                android:text="Description"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#090708"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
